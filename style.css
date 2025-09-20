@@ -187,3 +187,55 @@ section {
   .home-img img { width:70vw; }
   .home-content h1 { font-size:3.2rem; }
 }
+
+/* Contact Section */
+.contact {
+  min-height: 100vh;
+  padding: 8rem 6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-content {
+  max-width: 600px;
+}
+
+.contact-content h2 {
+  font-size: 3.2rem;
+  margin-bottom: 1.2rem;
+  color: var(--accent-color);
+  text-shadow: 0 0 8px var(--accent-color);
+}
+
+.contact-content p {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 1rem 1.4rem;
+  border-radius: 8px;
+  border: 2px solid var(--accent-color);
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  font-size: 1.4rem;
+  resize: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #fff;
+  box-shadow: 0 0 10px var(--accent-color);
+}
