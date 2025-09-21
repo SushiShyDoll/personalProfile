@@ -239,3 +239,22 @@ section {
   border-color: #fff;
   box-shadow: 0 0 10px var(--accent-color);
 }
+
+/* Education */
+.edu-card {
+  background: rgba(0,0,0,0.5);
+  padding: 2rem;
+  border-radius: 10px;
+  border: 2px solid var(--accent-color);
+  margin-bottom: 2rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+.edu-card h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+.edu-card p {
+  font-size: 1.4rem;
+  color: rgba(255,255,255,0.85);
+}
